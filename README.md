@@ -1,2 +1,1 @@
-# Shopping List Application
-# Built with the MERN Stack
+# Shopping List Application Built with the MERN Stack
