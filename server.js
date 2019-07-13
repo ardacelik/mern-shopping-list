@@ -6,8 +6,6 @@ const app = express();
 
 // Bodyparser Middleware
 app.use(bodyParser.json());
-<<<<<<< HEAD
-=======
 
 // DB Config
 const db = require("./config/keys").mongoURI;
@@ -24,4 +22,3 @@ mongoose
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => console.log(`Server started on port ${port}`));
->>>>>>> Initial commit
